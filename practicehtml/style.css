@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800;900&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Nunito', sans-serif;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+.flex-style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero {
+    background: url('./main-bg-sakshi.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 48.4375vw;
+}
+
+.boy-bg {
+    background: url('./blue-main-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vw;
+}
+
+#learn-slide-1 {
+    background: #FFFFFF;
+    text-align: center;
+    font-weight: 700;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.yusuke {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vw;
+    color: #01A8DF;
+}
+
+.big-font {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.blue-1 {
+    font-weight: 800;
+}
+
+
+
+.blue-2 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.blue-3 {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.parent-div {
+    border-left: 8px solid #F6B711;
+    border-radius: 2rem;
+}
+
+
+.btn-suku {
+    background-color: #A3C628;
+    border-color: #A3C628;
+    padding: 1.2rem 2.4rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 3rem;
+}
+
+.step-no {
+    color: #40a1da;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+}
